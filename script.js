@@ -1,7 +1,7 @@
 const posts = [
   {
     title: "Kijana Wa Mtaani",
-    content: "Leo kwa corner ya Githurai, msee aliekuwa mrefu kama miwa alikuwa akihutubia vijana kuhusu hasla na jaba...",
+    content: "Leo kwa corner ya Githurai, msee aliyekuwa mrefu kama miwa alikuwa akihutubia vijana kuhusu hasla na jaba...",
     date: "2025-06-14"
   },
   {
