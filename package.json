@@ -1,0 +1,26 @@
+{
+  "name": "aluta-pilots",
+  "version": "1.0.0",
+  "description": "Gwedhe digital",
+  "main": "scrape.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrahamgitonga/aluta-pilots.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abrahamgitonga/aluta-pilots/issues"
+  },
+  "homepage": "https://github.com/abrahamgitonga/aluta-pilots#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "rss-parser": "^3.13.0"
+  }
+}
