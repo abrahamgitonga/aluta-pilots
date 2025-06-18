@@ -24,3 +24,16 @@ module.exports = async (req, res) => {
     res.status(500).json({ error: "Failed to fetch news." });
   }
 };
+const { getFeeds } = require('../scrape');
+export default async function handler(req, res) {
+  try {
+    const feeds = await getFeeds();
+    if (!Array.isArray(feeds)) {
+      return res.status(500).json({ error: "Expected array but got something else" });
+    }
+    res.status(200).json(feeds);
+  } catch (err) {
+    console.error("Fetch error:", err);
+    res.status(500).json({ error: "Failed to fetch news" });
+  }
+}
