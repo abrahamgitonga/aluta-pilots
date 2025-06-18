@@ -24,7 +24,7 @@ module.exports = async (req, res) => {
     res.status(500).json({ error: "Failed to fetch news." });
   }
 };
-const { getFeeds } = require('../scrape');
+const { getFeeds } = require('./scrape');
 export default async function handler(req, res) {
   try {
     const feeds = await getFeeds();
