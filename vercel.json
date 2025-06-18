@@ -7,5 +7,12 @@
   "routes": [
     { "src": "/api/news", "dest": "api/news.js" },
     { "src": "/(.*)", "dest": "/public/$1" }
+  ],
+  "rewrites": [
+    { "source": "/api/news", "destination": "/api/news.js" }
   ]
+
 }
+
+  
+
