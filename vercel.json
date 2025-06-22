@@ -8,8 +8,8 @@
   
   "rewrites": [
     {
-      "source": "/api/news",
-      "destination": "/api/news.js"
+      "src": "/api/news",
+      "dest": "/api/news.js"
     }
   ]
 
